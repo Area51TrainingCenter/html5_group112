@@ -57,11 +57,11 @@ provee información general (metadatos) acerca del documento, incluyendo su tít
 Podemos definir este etiqueta como la que nos va a permitir definir valores para el navegador, tener en cuenta que los contenidos que sean agregados en esta etiqueta no son visibles para el usuario.
 
 ## body
-El Elemento HTML <body> representa el contenido de un documento HTML.  Es decir que todo los contenidos que quiero que sean visibles para el usuario deben estar dentro de esta etiqueta.
+El Elemento HTML **body** representa el contenido de un documento HTML.  Es decir que todo los contenidos que quiero que sean visibles para el usuario deben estar dentro de esta etiqueta.
 
 
 ## Etiquetas de tipo parrafo
-la etiqueta de tipo <p> nos permite a nosotros poder marcar un parrafo en nuestra página.
+la etiqueta de tipo **p** nos permite a nosotros poder marcar un parrafo en nuestra página.
 
  ````````
 <p>cada vez que queramos usar un parrafo , debemos utilizar esta etiqueta</p>
@@ -83,7 +83,7 @@ para ello html no solo nos brinda 1 sola etiqueta de tipo título , por lo contr
 ````````
 
 ## Etiquetas de tipo Img
-las etiquetas <img> nos va permitir poder agregar a nuestra web imágenes.
+las etiquetas **img** nos va permitir poder agregar a nuestra web imágenes.
 
 ````````
 <img src="rutadefoto.jpg">
