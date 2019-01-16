@@ -69,3 +69,68 @@ la etiqueta de tipo **a** también nos permite tener llamados de acción del sig
 ````````
 
 
+## Listas
+
+dentro de los contenidos que vamos a tener dentro de una web vamos a tener contenidos de tipo lista , es por ello que html brinda 2 etiquetas orientas al uso de listas teniendo el cuenta que las listas pueden ser de 2 tipos : **Listas Ordenadas** y **Listas Desordenadas** 
+
+**Listas Desordenadas** proviende de unorder-list y la etiqueta para poder marcas las listas de tipo desordenada es la etiqueta **ul**
+````````
+<ul>
+<li></li>
+</ul>
+````````
+**Listas Ordenadas proviende de order-list y la etiqueta para poder marcas las listas de tipo desordenada es la etiqueta **ol**
+````````
+<ol>
+<li></li>
+</ol>
+````````
+**tener en cuenta que para todos los elementos que queramos representar dentro de nuestas listas vamos a utilizar la etiqueta de tipo **li** (list-item)
+
+
+## Tablas 
+Las tablas en las estructuras html nos va a permitir a nosotros poder mostrar los datos en 2 o mas dimeisnoes 
+````````
+<table>
+  <tr>
+    <td>Nombres</td>
+    <td>Apellido</td>
+  </tr>
+  <tr>
+    <td>Juan Carlos</td>
+    <td>Ramos</td>
+  </tr>
+</table>
+````````
+Las estructura de las tablas evolución a la siguiente:
+````````
+<table>
+	<thead>
+		<tr>
+    		<th>Nombres</th>
+    		<th>Apellido</th>
+  		</tr>
+	</thead>
+  	<tobdy>
+  		<tr>
+	    	<td>Juan Carlos</td>
+	    	<td>Ramos</td>
+	  	</tr>
+  	</tobdy>
+  	<footer>
+  		<tr>
+	    	<td>Juan Carlos</td>
+	    	<td>Ramos</td>
+	  	</tr>
+  	</footer>
+  
+</table>
+````````
+en donde los nuevos elementos represetan lo siguiente:
+
+* **thead**  nos permite definir la cabezera de la tabla
+* **th**     nos permite definir las columnas de la cabezera de una tabla
+* **tbody**  nos permite definir el cuerpo de la tabla
+* **tfoot**  nos permite definir el pie de la tabla
+ 
+
