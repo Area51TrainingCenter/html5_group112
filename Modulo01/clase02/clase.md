@@ -5,7 +5,7 @@ las etiquetas **img** nos va permitir poder agregar a nuestra web imágenes.
 las etiquetas **img** van a contar 2 atributos importantes **alt=""** y **title=""**
 
 ````````
-<img src="rutadefoto.jpg" atl="" title="">
+<img src="rutadefoto.jpg" alt="texto alternativo" title=" título de foto">
 
 ````````
 
@@ -79,7 +79,7 @@ dentro de los contenidos que vamos a tener dentro de una web vamos a tener conte
 <li></li>
 </ul>
 ````````
-**Listas Ordenadas proviende de order-list y la etiqueta para poder marcas las listas de tipo desordenada es la etiqueta **ol**
+**Listas Ordenadas** proviende de order-list y la etiqueta para poder marcas las listas de tipo desordenada es la etiqueta **ol**
 ````````
 <ol>
 <li></li>
