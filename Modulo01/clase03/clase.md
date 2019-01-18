@@ -20,8 +20,7 @@ a continuacón definimos algunas etiquetas que debemos conocer para poder maneja
 # Formularios
 
 Los formularios nos permiten generar un bloque con el cual podemos solicitar al usuairo información 
-
-´´´´´´´´´´´´´´´
+````````
 <form>
 	<fieldset>
 		<legend>Datos personales</legend>
@@ -58,9 +57,9 @@ Los formularios nos permiten generar un bloque con el cual podemos solicitar al 
 	<input type="submit" name="">
 	<button type="submit"></button>
 </form>
-´´´´´´´´´´´´´´´
+````````
 
 
-# etiqueta Div
+# etiqueta div
 
 la etiqueta **div** representa un contenedor genérico sin ningún significado especial.
