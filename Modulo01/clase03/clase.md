@@ -1,7 +1,7 @@
-## clase 03	
+# clase 03	
 
 
-# Etiquetas de texto
+## Etiquetas de texto
 a continuacón definimos algunas etiquetas que debemos conocer para poder manejar textos
 
 * **p**  nos srive para poder representar parrafos en nuestros contenidos
@@ -17,7 +17,7 @@ a continuacón definimos algunas etiquetas que debemos conocer para poder maneja
 
 
 
-# Formularios
+## Formularios
 
 Los formularios nos permiten generar un bloque con el cual podemos solicitar al usuairo información 
 ````````
@@ -60,6 +60,18 @@ Los formularios nos permiten generar un bloque con el cual podemos solicitar al 
 ````````
 
 
-# etiqueta div
+## etiqueta div
 
 la etiqueta **div** representa un contenedor genérico sin ningún significado especial.
+````````
+<div>
+ <!-- bloque de informacion 1 -->
+</div>
+
+<div>
+ <!-- bloque de informacion 1 -->
+ 	<div>
+ 		<!-- item de informacion-->
+ 	</div>
+</div>
+````````
