@@ -1,23 +1,23 @@
 ## clase 03	
 
 
-## Etiquetas de texto
+# Etiquetas de texto
 a continuacón definimos algunas etiquetas que debemos conocer para poder manejar textos
 
-* etiqueta p  nos srive para poder representar parrafos en nuestros contenidos
-* etiqueta a nos sirve para poder generar enlaces en nuestros contenidos
-* etiqueta span Representa texto sin un significado específico. 
-* estiqueta strong Representa un texto especialmente importante .
-* blockquote Representa una contenido citado desde otra fuente.
-* em  Representa un texto enfatizado , como un acento de intensidad.
-* small  Representa un comentario aparte , es decir, textos como un descargo de responsabilidad
-* mark Representa texto resaltado con propósitos de referencia
-* sub Representan un subíndice .
-* sup Representan un superíndice, respectivamente.
+* **p**  nos srive para poder representar parrafos en nuestros contenidos
+* **a** nos sirve para poder generar enlaces en nuestros contenidos
+* **span** Representa texto sin un significado específico. 
+* **strong** Representa un texto especialmente importante .
+* **blockquote** Representa una contenido citado desde otra fuente.
+* **em**  Representa un texto enfatizado , como un acento de intensidad.
+* **small**  Representa un comentario aparte , es decir, textos como un descargo de responsabilidad
+* **mark** Representa texto resaltado con propósitos de referencia
+* **sub** Representan un subíndice .
+* **sup** Representan un superíndice, respectivamente.
 
 
 
-#Formularios
+# Formularios
 
 Los formularios nos permiten generar un bloque con el cual podemos solicitar al usuairo información 
 
@@ -51,7 +51,6 @@ Los formularios nos permiten generar un bloque con el cual podemos solicitar al 
 	<label><input type="checkbox">Mañana</label>
 	<label><input type="checkbox">Tarde</label>
 	<label><input type="checkbox">Noche</label>
-
 	<label>Comentario</label>
 	<textarea></textarea>
 	<label>selecciona tu archivo</label>
@@ -62,6 +61,6 @@ Los formularios nos permiten generar un bloque con el cual podemos solicitar al 
 ´´´´´´´´´´´´´´´
 
 
-## etiqueta Div
+# etiqueta Div
 
 la etiqueta **div** representa un contenedor genérico sin ningún significado especial.
