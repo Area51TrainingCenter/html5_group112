@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejemplo de Formulario</title>
+</head>
+<body>
+	<form action="success.html">
+		<label>Fecha</label>
+		<input type="text" value="18/01/2019" readonly disabled>
+		<br>
+		<label>Fecha</label>
+		<input type="text" placeholder="dd/mm/yy">
+		<br>
+		<fieldset>
+			<legend>Datos personales</legend>
+			<label for="inp-nombre">Nombre</label>
+			<input type="text" name="inp-nombre" placeholder="ingresar nombre aquí" required>
+			<br>
+
+			<label for="inp-apellidos">Apellios</label>
+			<input type="text" name="inp-apellidos" required>
+			<br>
+
+			<label>Contraseña</label>
+			<input type="password">
+			<br>
+		</fieldset>
+		<fieldset>
+			<legend>Datos de estudio</legend>
+			<label>Curso de tu interes</label><br>
+			<label><input type="checkbox"> HTML</label><br>
+			<label><input type="checkbox"> CSS</label><br>
+			<label><input type="checkbox"> JS</label><br>
+			
+			<label>Horario</label><br>
+			<label><input type="radio" name="turno">Mañana</label>
+			<label><input type="radio" name="turno">Tarde</label>
+			<label><input type="radio" name="turno">Noche</label>
+		</fieldset>
+		<br>
+		<label>Distrito</label>
+		<select>
+			<option value="0" disabled selected>Seleccionar distrito</option>
+			<option value="lima13">Jesús María</option>
+			<option value="lima14">Lince</option>
+			<option value="lima36" >San juan de lurigancho</option>
+			<option value="lima13">Jesús María</option>
+			<option value="lima14">Lince</option>
+		</select>
+		<br>
+		<label>Comentario</label>
+		<textarea placeholder="ingresa aquí tu comentario"></textarea>
+		<br>
+		<label>Selecciona tu archivo</label>
+		<input type="file">
+		<br>
+		<input type="submit" value="Guardar datos">
+	</form>
+
+</body>
+</html>
