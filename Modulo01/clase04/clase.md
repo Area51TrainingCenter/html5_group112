@@ -4,7 +4,7 @@
 Los formularios evolucionaron y con ellos las etiquetas que nos permitian crear controles para poder solicitar información al usuario.
 El problema que podemos encontrar con estos controles es que todavía no tiene el 100% de compatibilidad con todos los navegadores
 
-´´´´´´´´
+````````
 <form>
 	<label>Búsqueda</label>
 	<input type="search" name="">
@@ -30,21 +30,21 @@ El problema que podemos encontrar con estos controles es que todavía no tiene e
 	<input type="color">
 	<input type="submit" name="">
 </form>
-´´´´´´´´
+````````
 ## Iframe
 La etiqueta **iframe** representa un contexto de navegación anidada, el cual permite incorporar otra página HTML en la página actual
 
-´´´´´´´´
+````````
 <iframe src="rutadelcontenido" frameborder="0" scrolling="no">
-´´´´´´´´
+````````
 
 ## Embed 
 
 la etiqueta embed no permite poder insentar contenidos de una aplicación externa o de contenido interactivo
 
- ´´´´´´´´
+````````
 <embed src="rutadelarchivo" width="" height=""></embed>
-´´´´´´´´
+````````
 
 ## Etiquetas semanticas
 
