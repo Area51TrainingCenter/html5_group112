@@ -1,0 +1,53 @@
+h3{
+	color: purple
+}
+
+.texto1{
+	color: green;
+	font-family: arial;
+	font-size: 18px;
+}
+#text1{
+	font-size: 10px;
+ 
+}
+/* cuando se define 2 veces propiedades a un elmeneto 
+y estas se repite prevalece las definidas en el ID
+*/
+
+
+.texto2{
+	color: orange;
+}
+#texto3{
+	color: purple
+}
+
+.texto_bold{
+	font-weight:bold;
+}
+.letra-alta{
+	font-size: 24px;
+}
+
+
+.nav-site ul li{
+	color:yellow;
+}
+
+nav.nav-site ul li{
+	color: orange;
+}
+
+li{
+	color: blue!important;
+}
+
+nav.nav-site{
+
+}
+
+ul.lista{
+
+}
+
