@@ -1,0 +1,21 @@
+/* tag */
+h1{
+	font-size: 30px;
+	color: blue;
+}
+
+/* class */
+.nombreclase{
+	color:blue;
+	/*propiedad:valor;*/
+	background-color:red; 
+	/* definimos propiedades para los elementos */
+}
+/* Id */
+#nombreID{
+	/* definimos propiedades para los elementos */
+}
+
+/* 
+aquí puedes comentar todo lo que necesites
+*/

@@ -1,0 +1,44 @@
+body{
+	font-family: "arial";
+}
+.titulo-noticia{
+	color:red;
+	color:#bc1030;
+	color:rgb(16, 93, 188);
+	color:rgba(16, 93, 188,0.5);
+	color:hsl(213, 84%, 40%);
+	color:hsla(213, 84%, 40%,0.5);
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.parrafo1{
+	font-size: 16px;
+	font-weight:bold;
+
+}
+
+.parrafo2{
+	line-height: 26px;
+	word-spacing: 10px;
+	letter-spacing: 4px;
+}
+
+.parrafo3{
+	text-align: left;
+	text-decoration: none;
+}
+.precio{
+	text-decoration: line-through;
+	color: red;
+}
+.link{
+	text-decoration: none;
+	color: black;
+}
+
+.parrafo4{
+	text-transform: uppercase;
+	text-transform: lowercase;
+	text-transform: capitalize;
+}
