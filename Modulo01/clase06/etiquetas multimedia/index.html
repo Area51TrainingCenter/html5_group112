@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	
+	<h1>Etiquetas multimedia</h1>
+
+	<!--<audio src="recursos/audio.mp3" autoplay controls loop muted preload></audio>-->
+	<audio controls loop muted>
+		<source src="recursos/audio.mp3" type="audio/mp3">
+		<source src="recursos/audio.ogg" type="audio/ogg">
+			El navegador no soporta el contenido.
+	</audio> 
+
+	<a href="recursos/audio.mp3" download="download">Descargar</a>
+	<video src="recursos/video.mp4" class="player" controls autoplay loop preload poster="https://i.ytimg.com/vi/kjUYZTkSyk4/maxresdefault.jpg"></video>
+
+	<video controls>
+		<source src="recursos/video.mp4" type="video/mp4">
+		<source src="recursos/video.ogg" type="video/ogg">
+			El navegador no soporta el contenido.
+	</video>
+</body>
+</html>
+
+<style>
+	.player{
+		width: 300px;
+	}
+
+</style>
