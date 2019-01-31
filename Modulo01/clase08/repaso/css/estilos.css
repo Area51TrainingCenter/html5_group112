@@ -1,0 +1,42 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: arial;
+}
+.contenedor{
+	width: 1024px;
+	/*margin:0 auto;*/
+	margin-left: auto;
+	margin-right: auto;
+}
+.title{
+	font-size: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.detalle{
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: justify;
+	line-height: 1.5;
+	margin-bottom: 40px;
+}
+.bloque1{
+	width: 508px;
+
+
+	display: inline-block;
+	vertical-align: top;
+}
+.bloque2{
+
+	width: 508px;
+
+	display: inline-block;
+	vertical-align: top;
+	/*border:40px solid yellow;*/
+	padding: 20px;
+
+}
