@@ -1,0 +1,123 @@
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+}
+.contenedor{
+	width: 1170px;
+	margin:0 auto;
+}
+.title{
+	font-size: 25px;
+	padding: 15px 10px;
+	border-bottom: 1px solid silver;
+	letter-spacing: 1px;
+	font-weight: 400;
+}
+
+.col1{
+	width: 460px;
+
+
+	display: inline-block;
+	vertical-align: top;
+
+}
+.col2{
+	width: 390px;
+	height: 300px;
+	
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 25px;
+	padding-left: 40px;
+	padding-right: 20px;
+
+}
+.lista-detalle{
+
+	list-style: circle;
+}
+.lista-detalle li{
+	margin-bottom: 15px;
+	line-height: 21px;
+}
+.col3{
+	width: 310px;
+	height: 300px;
+
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 25px;
+	padding-left: 20px;
+
+
+}
+
+.precio-anterior{
+	text-decoration: line-through;
+	color: silver;
+	font-size: 12px;
+}
+
+.porcentaje{
+	font-size: 14px;
+	margin-left: 5px;
+}
+.precio-real{
+	font-weight: 700;
+	font-size: 18px;
+	color: red;
+	margin-top: 10px;
+	display: inline-block;
+}
+.texto-verde{
+	color: green;
+
+	
+
+}
+.texto-envio{
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+
+.fecha-entrega{
+	font-size: 13px;
+	word-spacing: 3px;
+	line-height: 1.3;
+	margin-bottom: 20px;
+}
+.tallas{
+	margin-top: 15px;
+	font-size: 14px;
+}
+.enlance
+{
+	font-size: 14px;
+	text-decoration: underline;
+	
+}
+
+.mas-informacion{
+	color: white;
+	background-color: orange;
+	/*display: inline-block;
+	width: 100%;*/
+	display: block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	border-radius: 7px;
+	margin-top:20px;
+}
