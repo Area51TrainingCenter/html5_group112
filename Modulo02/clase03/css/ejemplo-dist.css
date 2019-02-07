@@ -1,0 +1,23 @@
+*{
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.contenido{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	border-radius: 10px;
+	-webkit-box-shadow: 1px 1px 1px solid;
+	box-shadow: 1px 1px 1px solid;
+
+	
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+@-webkit-keyframes movi{
+
+}
+@keyframes movi{
+
+}

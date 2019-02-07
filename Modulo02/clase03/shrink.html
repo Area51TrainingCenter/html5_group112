@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejemplo Flex</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+	<div class="bloque2">
+		<div class="box-1">1</div>
+		<div class="box-2">2</div>
+		<div class="box-3">3</div>
+		
+
+	</div>
+
+	
+</body>
+</html>
+
+<style>
+	.bloque2{
+		width: 500px;
+		background-color: skyblue;
+		height: 300px;
+		display: flex;
+	
+	}
+
+	.box-1{
+		width: 200px;
+		height: 100px;
+		background-color: red;
+		flex-shrink: 5;
+		order: 3;
+	}
+		.box-2{
+		width: 200px;
+		height: 100px;
+		background-color: orange;
+		flex-shrink: 1;
+		order: 1
+	
+	}
+	.box-3{
+		width: 200px;
+		height: 100px;
+		background-color: yellow;
+		flex-shrink: 1;
+		order: 2;
+	}
+</style>
+
