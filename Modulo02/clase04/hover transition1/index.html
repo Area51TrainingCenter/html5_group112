@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejemplo Hover</title>
+</head>
+<body>
+	<h1 class="elemento">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+	<div class="bloque">
+		<div class="item"></div>
+	</div>
+</body>
+</html>
+
+<style>
+	.elemento{
+		background-color: red;
+		color: white;
+	}
+
+	.bloque	
+	{	width: 500px;
+		height: 500px;
+		background-color: skyblue;
+		color: white;
+		transition-duration: 3s;
+		transition-property: all;
+		transition-timing-function: linear;
+		transition-delay: 0s;
+		position: relative;
+	}
+
+
+	.item	
+	{	width: 100px;
+		height: 100px;
+		background-color: tomato;
+		transition:all 0.2s linear 0s;
+		position: absolute;
+		top: 0px;
+		border-radius: 50%;
+		left: 0px;
+		cursor: grab;
+
+		/*transition: property duration timing delay;*/
+	
+	}
+	.bloque:hover
+	{	
+	
+	
+	
+	}
+
+	.bloque:hover .item
+	{	
+
+		border-radius: 50%;
+		left: 50%;
+		top: 50%;
+		margin-top: -50px;
+		margin-left: -50px;
+	
+	}
+	.elemento:hover{
+		background-color: blue;
+		color: yellow;
+		border:20px solid black;
+		font-size: 40px;
+
+	}	
+</style>

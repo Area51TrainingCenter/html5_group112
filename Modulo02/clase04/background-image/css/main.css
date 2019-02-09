@@ -1,0 +1,13 @@
+.box{
+	width: 400px;
+	height: 500px;
+	/*background-color: red;*/
+	/*background-image: url("https://cdn.images.dailystar.co.uk/dynamic/228/photos/501000/620x/Ghost-of-Tsushima-Release-Date-PS4-News-PS5-Rumours-PlayStation-Gameplay-Trailers-660162.jpg")*/
+	background-image:url(../img/fondo3.jpg);
+	background-repeat: no-repeat;
+	background-color: black;
+	/*background-size: 100% 100%*/
+	background-size: cover;
+	background-position: center;
+	
+}
