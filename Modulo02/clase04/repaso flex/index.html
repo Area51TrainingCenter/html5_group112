@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+	<div class="contenido">
+		<div class="box1"></div>
+		<div class="box2"></div>
+		
+		<div class="box1"></div>
+		<div class="box2"></div>
+		
+	</div>
+</body>
+</html>
+<style>
+	.contenido{
+		width: 600px;
+		height:600px;
+		background-color: skyblue;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		align-content: center;
+
+	}	
+	.box1{
+		width:200px;
+		height: 50px;
+		background-color: orange;
+		align-self:center;
+
+		/*flex-shrink: 1;*/
+	
+	}
+
+	.box2{
+		width: 200px;
+		height: 50px;
+		background-color: red;
+	
+		/*flex-shrink: 10;*/
+
+	}
+</style>
