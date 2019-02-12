@@ -75,7 +75,89 @@ margin-top: 25px;
 
 
 
+/** seccions slider **/
+.slider img{
+	width: 100%;
+}
+/** end seccino slider **/
 
+
+/** seccion productos **/
+.seccion-productos{
+
+
+
+}
+.seccion-productos .title{
+font-size: 30px;
+text-align: center;
+padding-top: 50px;
+margin-bottom: 60px;
+}
+.lista-productos{
+	display: flex;
+	justify-content: space-between;
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+.item-producto{
+	width: 280px;
+
+	text-align: center;
+}
+.marca{
+	display: block;
+	font-weight: bold;
+	font-size: 17px;
+	margin-top: 20px;
+	margin-bottom: 8px;
+}
+.modelo{
+display: block;
+color: rgb(233,233,234)
+margin-bottom: 2px;
+}
+.cuota{
+display: block;
+color: rgb(233,233,234)
+}
+.precio{
+display: block;
+font-size: 30px;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+.btn-comprar{
+	background-color: rgb(107,203,25);
+	width: 100%;
+	display: inline-block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+	font-weight: bold;
+	border-radius: 10px;
+/*
+	transition-property: all;
+	transition-duration: 2s;
+	transition-delay: 0s;
+	transition-timing-function: linear;
+*/
+
+}
+
+.btn-comprar:hover{
+	/*background-color: black;*/
+	opacity: 0.8;
+}
+.ver-mas-equipos{
+	text-align: center;
+	color: skyblue;
+	margin-top:60px;
+	padding-bottom: 30px;
+}
+/** end seccion productos **/
 /*** helpers ***/
 .clearfix{
 	clear: both;
