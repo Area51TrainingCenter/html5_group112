@@ -11,6 +11,9 @@ a{
 body{
 	font-family: arial;
 }
+img{
+	vertical-align: top;
+}
 .contenedor{
 	width: 1330px;
 	margin:0 auto;
@@ -158,6 +161,107 @@ margin-bottom: 15px;
 	padding-bottom: 30px;
 }
 /** end seccion productos **/
+
+
+/** seccion canales **/
+.seccion-canales{
+	background-color: #f5f5f5;
+	padding-top: 60px;
+	padding-bottom: 100px;
+	display: flex;
+	justify-content: center;
+}
+.foto-canales{
+
+}
+.listado-canales{
+	width: 340px;
+	background-color: blue;
+	margin-left: 40px;
+
+}
+.listado-canales ul {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+.listado-canales li{
+	border-bottom: 2px solid silver;
+	/*padding-top: 40px;
+	padding-bottom: 40px;*/
+	padding-left: 25px;
+	
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+.listado-canales li h3{
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 10px;
+
+	}
+	.listado-canales li span{
+		font-size: 18px;
+	}
+/** end seccion canales **/
+
+
+/** bloque info **/
+.bloque-info{
+	height: 400px;
+	/*background-color: black;*/
+	background-image: url(../img/fondo1.jpg);
+	background-size: cover;
+	color: white;
+	padding-top: 50px;
+	padding-left: 110px;
+}
+
+.texto1{
+	font-size: 40px;
+	display: block;
+	margin-bottom: 25px;
+	text-shadow: 2px 2px 2px black;
+}
+.texto2{
+font-size: 23px;
+	display: block;
+	margin-bottom: 10px;
+		text-shadow: 2px 2px 2px black;
+
+}
+
+.texto3{
+font-size: 23px;
+	display: block;
+		text-shadow: 2px 2px 2px black;
+}
+.texto3 strong{
+	font-weight: bold;
+}
+.iconos{
+	font-size: 40px;
+	margin-top: 20px;
+	}
+	.iconos i{
+		margin-right: 15px;
+	}
+.iconos{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	
+
+}
+	.iconos .fa-plus{
+	font-size: 20px;
+	}
+
+/** end bloque info**/
 /*** helpers ***/
 .clearfix{
 	clear: both;
