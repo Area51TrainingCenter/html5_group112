@@ -17,7 +17,7 @@
 .bloque-right{
 	width: 50%;
 	float: right;
-	background-color: blue;
+	
 }
 .clear{
 	clear: both;
@@ -105,3 +105,30 @@ position: relative;
 	margin-top: 40px; 
 	text-decoration: none;
 }
+
+.bloque-right{
+	padding: 20px;
+}
+.title-section{
+	background-color: yellow;
+	padding: 20px 20px 10px 20px;
+	position: relative;
+	margin-bottom: 50px;
+	overflow: hidden;
+
+ }
+ .linea{
+ 	width: 75px;
+ 	height: 1px;
+ 	background-color: black;
+ 	display: inline-block;
+ 	position: absolute;
+ 	left: -518px;
+ 	bottom: 0px;
+ 	transition:all 0.4s linear;
+	
+ }
+ .title-section:hover .linea{
+ 	left: 18px;
+
+ }

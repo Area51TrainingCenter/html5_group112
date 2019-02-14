@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Modal</title>
+</head>
+<body>
+	
+	<div class="">
+		<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo ea repellendus, nesciunt blanditiis incidunt provident laborum eligendi odit temporibus. Possimus, deserunt, sapiente voluptates maiores soluta autem repudiandae dignissimos totam sint!</h1>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae doloremque ratione, eveniet, natus quisquam repudiandae temporibus animi reiciendis placeat soluta, consequatur debitis libero ex. Quibusdam temporibus quas hic laboriosam aliquam.</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae doloremque ratione, eveniet, natus quisquam repudiandae temporibus animi reiciendis placeat soluta, consequatur debitis libero ex. Quibusdam temporibus quas hic laboriosam aliquam.</p>
+
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae doloremque ratione, eveniet, natus quisquam repudiandae temporibus animi reiciendis placeat soluta, consequatur debitis libero ex. Quibusdam temporibus quas hic laboriosam aliquam.</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae doloremque ratione, eveniet, natus quisquam repudiandae temporibus animi reiciendis placeat soluta, consequatur debitis libero ex. Quibusdam temporibus quas hic laboriosam aliquam.</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae doloremque ratione, eveniet, natus quisquam repudiandae temporibus animi reiciendis placeat soluta, consequatur debitis libero ex. Quibusdam temporibus quas hic laboriosam aliquam.</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae doloremque ratione, eveniet, natus quisquam repudiandae temporibus animi reiciendis placeat soluta, consequatur debitis libero ex. Quibusdam temporibus quas hic laboriosam aliquam.</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae doloremque ratione, eveniet, natus quisquam repudiandae temporibus animi reiciendis placeat soluta, consequatur debitis libero ex. Quibusdam temporibus quas hic laboriosam aliquam.</p>
+
+		<span id="ver-modal">Ver más</span>
+
+		<div id="modal" class="modal no-show">
+				<div class="contendio-modal">
+					<span id="cerrar" class="cerrar-modal">Cerrar</span>
+					<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur iste cons</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae fuga omnis doloremque quaerat voluptatibus praesentium architecto nostrum ipsum amet fugiat quia illo, consequatur unde excepturi, numquam, distinctio non aspernatur itaque!</p>
+				</div>
+		</div>
+
+	</div>
+
+</body>
+</html>
+
+<style>
+	.modal{
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0,0,0,0.9);
+		position: fixed;
+		left: 0px;
+		top: 0px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+	}
+	.contendio-modal{
+		background-color: white;
+		padding: 20px;
+		width: 500px;
+		border-radius: 10px;
+		position: relative;
+
+	}
+	.cerrar-modal{
+		padding:10px 20px;
+		display: inline-block;
+		background-color: black;
+		color: white;
+		position: absolute;
+		right: -20px;
+		top: -20px;
+	
+	}
+	.no-show{
+		display: none;
+	
+	}
+	</style>
+
+<script>
+	var cerrar=document.getElementById('cerrar');
+	cerrar.addEventListener("click",cerrar_modal)
+	var modal=document.getElementById('modal');
+	function cerrar_modal(){
+		modal.classList.add("no-show");
+	}
+	console.log("texto")
+
+	var abrir=document.getElementById('ver-modal');
+	abrir.addEventListener("click",abrir_modal)
+	function abrir_modal(){
+		modal.classList.remove("no-show")
+	}
+</script>

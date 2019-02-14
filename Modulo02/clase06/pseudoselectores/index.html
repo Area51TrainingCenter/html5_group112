@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<h1 class="title">Lorem ipsum dolor
+		
+	</h1>
+	<p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, veniam temporibus maiores, iusto ab tempore laborum, ipsa molestias illo repudiandae molestiae dolorum sit. Eius deserunt, adipisci labore rerum est rem!</p>
+
+	<ul class="lista">
+		<li> Eius deserun</li>
+		<li> Eius deserun</li>
+		<li> Eius deserun</li>
+	</ul>
+	
+</body>
+</html>
+
+<style>
+	.parrafo{
+		font-family: arial;
+	}
+	.parrafo:before{
+		content:'"';
+		color: red;
+	}
+	.parrafo:after{
+		content:'"';
+		color: blue;
+	}
+
+	.title{
+		text-align: center;
+		font-family: arial;
+		padding: 20px;
+		background-color: skyblue;
+		position: relative;
+	}
+	.title:before{
+		content: "";
+		width: 100px;
+		height: 5px;
+		display: inline-block;
+		background-color: red;
+		position: absolute;
+		bottom: 0px;
+		left: 50%;
+		margin-left: -50px;
+	}
+
+	.lista{
+		font-size: 30px;
+		list-style: none;
+	}
+	.lista li{
+		background-color: yellow;
+		margin-top: 10px;
+		position: relative;
+		padding-left: 30px;
+	}
+	.lista li:after{
+		content: "";
+		width: 20px;
+		height: 20px;
+		display: inline-block;
+		background-image:url("https://images.vexels.com/media/users/3/143372/isolated/preview/6e633a235ea0d523078e667b9f84f15b-marca-de-verificaci--n-azul-by-vexels.png");
+		background-size: 100% 100%;
+		position: absolute;
+		top: 5px;
+		left: 0px;
+	}
+</style>
