@@ -1,0 +1,26 @@
+
+section{
+	min-height: 400px;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.bloque1{
+	background: linear-gradient(red,blue);
+}
+
+.bloque2{
+	background: linear-gradient(to left,skyblue,pink);
+}
+
+.bloque3{
+	background: linear-gradient(to right,skyblue,white ,blue );
+}
+
+.bloque4{
+	background: radial-gradient(blue,red,black );
+}
+
+.bloque5{
+	background: radial-gradient(transparent 40%,rgba(0,0,0,0.5),rgba(0,0,0,0.5) );
+}
+

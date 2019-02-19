@@ -1,0 +1,23 @@
+
+@font-face {
+    font-family: 'fuentepropia';
+    src: url('fonts/GROBOLD-webfont.eot');
+    src: url('fonts/GROBOLD-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/GROBOLD-webfont.woff2') format('woff2'),
+         url('fonts/GROBOLD-webfont.woff') format('woff'),
+         url('fonts/GROBOLD-webfont.ttf') format('truetype'),
+         url('fonts/GROBOLD-webfont.svg#groboldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face{
+  font-family: 'fuentepropia2';
+  src: url('fonts/GROBOLD-webfont.eot');
+  src:  url('fonts/GROBOLD-webfont.eot?#iefix') format('embedded-opentype'),
+      url('fonts/GROBOLD-webfont.ttf') format('truetype');
+
+}
+h1{
+	font-family:"fuentepropia2";
+}

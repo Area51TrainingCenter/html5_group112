@@ -1,0 +1,51 @@
+.container{
+	width: 1024px;
+	margin:0 auto;
+	
+	
+}
+html{
+	font-size: 16px;
+}
+.title{
+	font-size: 2rem;
+	text-align: center;
+	padding: 20px;
+}
+.intro-parrafo{
+	font-size: 1.2rem
+}
+/*
+la medida em se basa en el tamaño de 
+la fuente del contenedor padre (soporta decimales)
+*/
+.detalle{
+font-size: 16px;
+}
+
+.detalle h2{
+	font-size: 2em;
+	margin-bottom: 10px;
+	text-align: center;
+	margin-top: 20px;
+
+}
+.detalle-textos{
+	display: flex;
+}
+
+/*
+la medida rem se basa en el tamaño de 
+la fuente del contenedor root (html)
+*/
+.detalle p{
+	padding: 20px;
+	line-height: 1.2;
+	font-size: 1rem;
+
+}
+
+/* recomendacion **/
+/*
+Lo cierto es que la más recomendada es la rem ya que hace que nuestra web sea accesible a personas con deficiencia visual, puesto que los navegadores permiten la opción de aumentar el tamaño base del elemento root haciendo que el resto de elementos aumente en consecuencia.
+*/
