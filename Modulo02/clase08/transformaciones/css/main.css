@@ -1,0 +1,53 @@
+.elemento{
+	width: 500px;
+	position: relative;
+	transition: all 3s linear;
+}
+.carro{
+	width: 500px;
+}
+.llanta1{
+	width: 100px;
+	position: absolute;
+	bottom: 0px;
+	left: 70px;
+	transition: all 3s linear;
+
+}
+.llanta1 img{
+	width: 100px;
+	
+}
+.llanta2{
+	width: 100px;
+	position: absolute;
+	bottom: 0px;
+	right: 20px;
+	transition: all 3s linear;
+
+}
+.llanta2 img{
+	width: 100px;
+	
+}
+.elemento:hover{
+	margin-left: 500px;
+}
+.elemento:hover .llanta2 , .elemento:hover .llanta1{
+	transform: rotate(2880deg);
+} 
+.caja{
+	width: 100px;
+	height: 100px;
+
+
+	color: white;
+	font-weight: bold;
+	transition: all 0.5s linear;
+}
+.caja img{
+	width: 100%;
+}
+.caja:hover{
+		transform: rotate(1440deg);
+}

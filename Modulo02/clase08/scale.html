@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Scale</title>
+</head>
+<body>
+	<div class="caja-foto">
+		<img src="https://i.blogs.es/15c1e8/marvel-studios/450_1000.jpg" alt="">
+	</div>
+	<div class="box1"></div>
+	<div class="box2"></div>
+	<div class="box3"></div>
+
+</body>
+</html>
+
+<style>
+.caja-foto{
+	width: 450px;
+	height: 253px;
+	background-color: black;
+	overflow: hidden;
+}
+.caja-foto img{
+	transition: all 0.5s linear;
+}
+.caja-foto:hover img{
+	transform: scale(1.5)  translate(90px ,0px);
+}
+div{
+	display: inline-block;
+	vertical-align: top;
+	transition:all 0.4s linear;
+}
+	.box1{
+		width: 100px;
+		height: 100px;
+		background-color: red;
+	}
+	.box1:hover{
+		/*width: 200px;
+		height: 200px;*/
+		transform: scale(0.5);
+	}
+	.box2{
+		width: 100px;
+		height: 100px;
+		background-color: blue;
+	}
+	.box2:hover{
+		/*width: 200px;
+		height: 200px;*/
+		transform: scale(1);
+	}
+	.box3{
+		width: 100px;
+		height: 100px;
+		background-color: green;
+	}
+</style>
