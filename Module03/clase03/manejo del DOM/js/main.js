@@ -26,9 +26,7 @@ ele_nosotros.addEventListener("click",cambio2)
 function cambio(){
 	ele_inicio.classList.add("activo");
 	ele_nosotros.classList.remove("activo");
-
 }
-
 
 function cambio2(){
 	ele_nosotros.classList.add("activo");
