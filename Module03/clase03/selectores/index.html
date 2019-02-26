@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	
+</head>
+<body>
+	<h1 id="title">Lorem ipsum</h1>
+	<p>Lorem ipsum dolor </p>
+	<p class="parrafo">Lorem ipsum dolor </p>
+	<p class="parrafo">Lorem ipsum dolor</p>
+
+</body>
+</html>
+<script>
+	var elemento=document.getElementById('title')
+	// solo devuelve 1 elemento
+	console.log(elemento);
+
+	var elementos=document.getElementsByTagName('p')
+	// devuelve un arreglo asi solo tenga 1 elemento encontrado
+	console.log(elementos)
+
+	var parrafos=document.getElementsByClassName('parrafo');
+	console.log(parrafos)
+	parrafos[0].classList.add("color");
+	parrafos[1].classList.add("color");
+
+	var elementos2=document.queryselector("nav ul li")
+	var elementos2=document.queryselectorAll("nav ul li");
+
+</script>
+
