@@ -7,14 +7,55 @@
 <body>
 	<h2>Productos</h2>
 	<ul class="productos">
-		<li>Producto A</li>
-		<li>Producto B</li>
+		<li id="opcion1" data-precio="25.00">Producto A</li>
+		<li id="opcion2" data-precio="10.00">Producto B</li>
 		<li>Producto C</li>
 		<li>Producto D</li>
 	</ul>
 	<h2>Pedido</h2>
-	<ul class="pedido">
+	<ul id="pedido">
 		
 	</ul>
+	<p>Total:S/ <span id="total"></span></p>
 </body>
 </html>
+<script>
+	var total=0;
+	var item1=document.getElementById('opcion1');
+	item1.addEventListener("click",agregar1)
+
+	var texto_total=document.getElementById('total');
+	
+	var lista=document.getElementById('pedido');
+
+	function agregar1(){
+		var elemento=document.createElement("li")
+		var texto_elemento=document.createTextNode("Producto A");
+		elemento.appendChild(texto_elemento);
+
+		lista.appendChild(elemento);
+		var precio=item1.getAttribute("data-precio");
+		console.log(precio);
+		total=total+parseInt(precio);
+		texto_total.innerText=total;
+
+	}
+
+	var item2=document.getElementById('opcion2');
+	item2.addEventListener("click",agregar2)
+
+	function agregar2(){
+		var elemento=document.createElement("li")
+		var texto_elemento=document.createTextNode("Producto B");
+		elemento.appendChild(texto_elemento);
+
+		lista.appendChild(elemento);
+		var precio=item2.getAttribute("data-precio");
+		console.log(precio);
+		total=total+parseInt(precio);
+		texto_total.innerText=total;
+
+	}
+
+
+</script>
