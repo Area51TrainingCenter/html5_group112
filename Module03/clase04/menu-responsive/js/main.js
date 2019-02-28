@@ -1,0 +1,30 @@
+var estado=0;
+$(".ico-menu").click(function(){
+	//$(".nav-site").addClass("mostar-menu")
+	//$(".nav-site").show();
+	//$(".nav-site").hide();
+	/*if(estado==0){
+		$(".nav-site").show();
+		estado=1;
+	}
+	else{
+		$(".nav-site").hide();
+		estado=0;
+	}*/
+	//$(".nav-site").toggle();
+	/*if(estado==0){
+		//$(".nav-site").fadeIn();
+		$(".nav-site").slideDown();
+		estado=1;
+	}
+	else{
+		//$(".nav-site").fadeOut();
+		$(".nav-site").slideUp();
+		estado=0;
+	}*/
+	//$(".nav-site").slideToggle(1000);
+	$(".modal-menu").fadeIn();
+})
+$(".ico-cerrar").click(function(){
+	$(".modal-menu").fadeOut();	
+})

@@ -1,0 +1,25 @@
+
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	font-family: arial;
+}
+	.container{
+		width: 970px;
+		margin:0 auto;
+	}
+	.nav-site{
+		background-color: black;
+	}
+	.nav-site ul li{
+		display: inline-block;
+		vertical-align: top;
+		padding: 10px;
+		color: white;
+	}
+	.activado{
+		background-color: skyblue;
+		color:black;
+	}
