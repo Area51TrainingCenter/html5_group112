@@ -31,10 +31,39 @@
 			align-items: center;
 		}
 		.contenido-modal{
-			width: 400px;
+			width:700px;
 			padding: 30px;
 			border-radius: 10px;
 			background-color: white;
+			position: relative;
+		}
+		.nav-left{
+background-color: black;
+			width: 30px;
+			height: 30px;
+			color: white;
+			font-weight: bold;
+			justify-content: center;
+			align-items: center;
+			display: flex;
+			position: absolute;
+			top: 50%;
+			left: 5px;
+			margin-top: -15px;
+		}
+		.nav-right{
+			background-color: black;
+			width: 30px;
+			height: 30px;
+			color: white;
+			font-weight: bold;
+			justify-content: center;
+			align-items: center;
+			display: flex;
+			position: absolute;
+			top: 50%;
+			right: 5px;
+			margin-top: -15px;
 		}
 		.pic{
 			width: 100%;
@@ -53,7 +82,9 @@
 	<div class="modal1">
 		<div class="over-modal">
 			<div class="contenido-modal">
+				<span class="nav-left"> < </span>
 				<img class="pic" src="https://via.placeholder.com/600x400" alt="">
+				<span class="nav-right"> > </span>
 			</div>
 		</div>
 	</div>
@@ -131,29 +162,33 @@
 			<div class="grid-projects">
 				<div class="item-grid">
 					<a href="img/item1.jpg" data-lightbox="proyectos" data-title="Foto title">
-						<img src="img/item1.jpg">
+						<img src="img/item1.jpg" data-ruta="img/hulk.jpg" data-posicion="0">
 					</a>
 				</div>
 				<div class="item-grid">
 					<a href="img/item2.jpg" data-lightbox="proyectos" data-title="Foto title">
-					<img src="img/item2.jpg">
+					<img src="img/item2.jpg"  data-ruta="img/maquinaguerra.jpg" data-posicion="1">
 					</a>
 				</div>
 				<div class="item-grid">
 				<a href="img/item3.jpg" data-lightbox="estudios" data-title="Foto title">
-					<img src="img/item3.jpg">
+					<img src="img/item3.jpg"  data-ruta="img/avengers2.png"> 
 					</a>
 				</div>
 				<div class="item-grid">
 					<a href="img/item4.jpg" data-lightbox="estudios" data-title="Foto title">
-						<img src="img/item4.jpg">
+						<img src="img/item4.jpg"  data-ruta="img/hulk.jpg">
 						</a>
 				</div>
 				<div class="item-grid">
-					<img src="img/item5.jpg">
+					<a href="img/item3.jpg">
+					<img src="img/item5.jpg"  data-ruta="img/hulk.jpg">
+					</a>
 				</div>
 				<div class="item-grid">
-					<img src="img/item6.jpg">
+					<a href="img/item3.jpg">
+					<img src="img/item6.jpg"  data-ruta="img/hulk.jpg">
+					</a>
 				</div>
 			</div>
 
