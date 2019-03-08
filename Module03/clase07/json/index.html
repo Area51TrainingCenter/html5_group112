@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<h1>Consumiendo Json</h1>
+<ul class="usuarios">
+	
+</ul>
+</body>
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript">
+	url="https://jsonplaceholder.typicode.com/users";
+	data={dni:123,sexo:"m"}
+
+	//$.getJSON(url,datos,funcion callback)
+	$.getJSON(url,function(data){
+		console.log("finalizo el consumo de json")
+		for(var i=0;i<10;i++){
+			let nombre=data[i].name;
+			$(".usuarios").append("<li>"+nombre+"</li>")
+		}
+		
+	})
+	
+</script>
